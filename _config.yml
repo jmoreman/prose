@@ -2,7 +2,7 @@ auto: true
 server: true
 pygments: true
 permalink: none
-baseurl: ""
+baseurl: "/prose"
 oauth_client_id: d8d7f14fd0859f1fcbac
 gatekeeper_url: http://gatekeeper-jmoreman.herokuapp.com/
 exclude:
