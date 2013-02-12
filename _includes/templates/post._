@@ -1,4 +1,3 @@
-
 <div class="document-menu">
   <div class="document-menu-content">
     
@@ -19,6 +18,8 @@
         <% if (window.authenticated) { %>
           <a class='cancel-save button' href='#' title="ESC">X</a>
           <a class='save button inactive' href='#' title="CTRL+S"><%= writeable ? "SAVE" : "SEND PATCH" %></a>
+        <a class='link new upload' href='#'>Upload</a>
+        <input type='file' id='upload-input' />
         <% } %>
       </div>
     </div>
